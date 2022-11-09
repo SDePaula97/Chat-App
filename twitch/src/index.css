@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.video-container {
+  width: 50%;
+  height: 100%;
+}
+.messaging-container {
+  width: 50%;
+}
+.auth-container {
+width: 100vw;
+height: 100vh;
+background-color:#50577A ;
+display: flex;
+justify-content: center;
+}
+.auth-container-box{
+background-color: #F7F7F7;
+align-self: center;
+}
+.auth-container-form {
+display: flex;
+flex-direction: column;
+padding: 5px;
+}
+.auth-container-form input {
+  font-size: 20px;
+  padding: 8px;
+  margin: 0 0 8px 0;
+}
+.auth-options {
+  display: flex;
+  flex-direction: row;
+}
+.auth-options button {
+  width: 50%;
+  text-align: center;
+  color:#F7F7F7;
+  font-size: 20px;
+  border: none;
+  background-color:#474E68;
+  padding: 8px;
+}
+.auth-options button:hover {
+  background-color: #F6D860;
+}
+button {
+  background-color:#F6D860;
+  color: black;
+  border: none;
+  font-size: 20px;
+  padding: 8p;
+  width: 100%;
+}
+button:hover {
+  background-color: #50577A;
+}
+
