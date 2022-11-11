@@ -14,7 +14,7 @@ Tech Stack
 
 Getting Started on this project
 - https://app.diagrams.net/#G1DupV7IRlUQcmNR9oePdsmLgGJUp9lav2
-![This is an image]()
+![This is an image](https://github.com/SDePaula97/Chat-App/blob/main/trello%20board.png)
 
 -Sign up to getstream.io
 You need to sign up to getstream.io to get your secret, your key and your id.
