@@ -1,10 +1,10 @@
-## Chat-App
+## Twitch Clone Chat App
 
 Introduction
 
 A Gaming Chat App similar to Twitch(for all those gamers out there!) :video_game:
 
-This is a FullStack MERN Application
+This is a FullStack Application
 
 
 Tech Stack
