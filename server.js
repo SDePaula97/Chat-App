@@ -11,6 +11,7 @@ require('dotenv').config()
 app.use(morgan('dev'))
 app.use(cors())
 app.use(express.json())
+require('./database');
 
 const API_KEY = '65ewc4vver4w'
 const API_SECRET ='6yqrhm7nvcycf58ct4xjk3b22tz82qhn7adfppdafpy6f3wy5a9j3gykz6suzuk4'
