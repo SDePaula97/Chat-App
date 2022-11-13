@@ -67,6 +67,9 @@ button {
   padding: 8px;
   width: 100%;
 }
+.str-chat__input-flat-emojiselect {
+  width: 20px;
+}
 .user-list-container {
   width: 100%;
   padding: 20px;
@@ -100,6 +103,3 @@ button {
   right: 20px;
   color:#F7F7F7
 }
-
-
-
