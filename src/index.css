@@ -60,7 +60,7 @@ padding: 5px;
   background-color: #F6D860;
 }
 button {
-  background-color:#4C0033;
+  background-color:#6B728E;
   color: #F9F9F9;
   border: none;
   font-size: 20px;
@@ -74,8 +74,9 @@ button {
   width: 100%;
   padding: 20px;
   height: 70%;
-  background-color: #8e92a5;
+  background-color: #1B2430;
   overflow-y: scroll;
+  color: #ffffff;
 }
 .user-list-container li {
     list-style: none;
@@ -90,7 +91,7 @@ button {
 .chat-container {
   width: 100%;
   height: 100%;
-  background-color:#697b8e;
+  background-color:#1B2430;
   position: relative;
   bottom: 0;
   border-radius: 5px 5px 0 0;

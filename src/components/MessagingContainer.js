@@ -40,7 +40,10 @@ const MessagingContainer = ({users}) => {
               </div>
             </Window>
         )}
-            <Thread/>
+        <div className='thread-container'>
+
+        <Thread/>
+        </div>
         </div>
     )
 }

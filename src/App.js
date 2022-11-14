@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { StreamChat } from 'stream-chat'
 import { useCookies } from 'react-cookie'
-import { Chat, Channel, } from 'stream-chat-react'
+import { Chat, Channel, ChannelList } from 'stream-chat-react'
 import Auth from './components/Auth'
 import MessagingContainer from './components/MessagingContainer'
 import Video from './components/Video'
 import 'stream-chat-react/dist/css/index.css';
 import './index.css'
 import {customStyles} from "./customStyles"
+//import NavBar from './components/NavBar'
 
 
 const client = StreamChat.getInstance('65ewc4vver4w')
@@ -40,10 +41,16 @@ const App = () => {
         },
         authToken
       )
-      const channel = await client.channel('gaming', 'gaming-demo', {
-        name: 'Gaming Demo ',
+      const channel = await client.channel('gaming', 'Gaming Demo', {
+        name: 'Gaming Demo',
 
       })
+
+      // const filters = { type:'gaming', members: { $in: [user.id]}}
+      // const sort = {last_message_at: -1}
+
+      await channel.watch()
+      
       setChannel(channel)
     } catch (err) {
       console.log(err);
@@ -58,11 +65,14 @@ const App = () => {
     <div>
       {!authToken && <Auth />}
       {authToken && <Chat client={client} customStyles={customStyles}>
-        <Channel channel={channel}>
-          <h1>Tweetch Chat</h1>
-          <Video />
+        <ChannelList
+        // filters={filters}
+        // sort={sort}
+        />
+         <Channel channel={channel}>
+           <Video />
           <MessagingContainer users={users} />
-        </Channel>
+         </Channel>
          </Chat>}
     </div>
   )
