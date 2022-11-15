@@ -2,7 +2,10 @@
 
 Introduction
 
-A Gaming Chat App similar to Twitch(for all those gamers out there!) :video_game:
+A Gaming Chat App similar to Twitch :video_game:
+
+Building on top of the Stream Chat API, the Stream Chat React component library includes everything you need to build feature-rich and high-functioning chat user experiences out of the box. The library includes an extensive set of performant and customizable React components
+
 ![This is an image](https://github.com/SDePaula97/Chat-App/blob/main/ChatApp.png)
 
 
