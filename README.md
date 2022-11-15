@@ -3,9 +3,8 @@
 Introduction
 
 A Gaming Chat App similar to Twitch(for all those gamers out there!) :video_game:
-![This is an image]()
+![This is an image](https://github.com/SDePaula97/Chat-App/blob/main/ChatApp.png)
 
-This is a FullStack Application
 
 
 Tech Stack
