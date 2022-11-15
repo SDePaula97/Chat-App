@@ -3,6 +3,7 @@
 Introduction
 
 A Gaming Chat App similar to Twitch(for all those gamers out there!) :video_game:
+![This is an image]()
 
 This is a FullStack Application
 
