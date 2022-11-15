@@ -81,6 +81,8 @@ APP_ID={your_id}
 
 ##Unresolved Issues
 
+connecting to a database
+
 User Roles and Permissions
 
 Adding Features
