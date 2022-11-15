@@ -77,11 +77,14 @@ APP_ID={your_id}
 
 
 ##Unresolved Issues
+
 User Roles and Permissions
+
 Adding Features
 
 ##Future Enhancements
 Adding Features like the ability for the user to create and customize their own profile/have a profile picture.
+
 Better UI
 
 
